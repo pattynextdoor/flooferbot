@@ -16,14 +16,14 @@ var breeds = ["https://dog.ceo/api/breed/akita/images/random",
               "https://dog.ceo/api/breed/malamute/images/random",
               "https://dog.ceo/api/breed/mountain/bernese/images/random",
               "https://dog.ceo/api/breed/pyrenees/images/random",
-              "https://dog.ceo/api/breed/samoyed/images/random"]
+              "https://dog.ceo/api/breed/samoyed/images/random"];
 
 var generatorURL = pickBreed();
 
 setInterval(function(){
   doggoDownload();
   tweet();
-}, 30 * 60 * 1000);
+}, 1 * 60 * 1000);
 
 //Doin a download
 function doggoDownload(){
@@ -71,32 +71,50 @@ function pickBreed() {
 
   if(num <= 12) {
     return breeds[0];
+    console.log("Picked Akita");
   }
   else if(num > 12 && num <= 25) {
     return breeds[1];
+    console.log("Picked Shibe");
+
   }
   else if(num > 25 && num <= 100) {
     return breeds[2];
+    console.log("Picked Chow");
+
   }
   else if(num > 100 && num <= 200) {
     return breeds[3];
+    console.log("Picked Eskimo");
+
   }
   else if(num > 200 && num <= 300) {
     return breeds[4];
+    console.log("Picked Husky");
   }
   else if(num > 300 && num <= 400) {
     return breeds[5];
+    console.log("Picked Leonberg");
+
   }
   else if(num > 400 && num <= 500) {
     return breeds[6];
+    console.log("Picked Malamute");
+
   }
   else if(num > 500 && num <= 600) {
     return breeds[7];
+    console.log("Picked Bernese Mountain");
+
   }
   else if(num > 600 && num <= 700) {
     return breeds[8];
+    console.log("Picked Pyrenees");
+
   }
   else if(num > 700 && num <= 800) {
     return breeds[9];
+    console.log("Picked Samoyed");
+
   }
 }
