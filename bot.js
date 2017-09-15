@@ -18,9 +18,8 @@ var breeds = ["https://dog.ceo/api/breed/akita/images/random",
               "https://dog.ceo/api/breed/pyrenees/images/random",
               "https://dog.ceo/api/breed/samoyed/images/random"];
 
-var generatorURL = pickBreed();
-
 setInterval(function(){
+  var generatorURL = pickBreed();
   doggoDownload();
   tweet();
 }, 30 * 60 * 1000);
