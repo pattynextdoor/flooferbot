@@ -4,8 +4,17 @@
   "description": "A Twitter bot that posts a random floof every 30 minutes.",
   "main": "bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bot.js"
   },
   "author": "Patrick Tumbucon",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.1",
+    "download-file": "^0.1.5",
+    "image-downloader": "^3.2.2",
+    "promise": "^8.0.1",
+    "request": "^2.81.0",
+    "twit": "^2.2.9"
+  },
+  "optionalDependencies": {}
 }
