@@ -20,13 +20,13 @@ var breeds = ["https://dog.ceo/api/breed/akita/images/random",
 
 setInterval(function() {
   var generatorURL = pickBreed();
-  doggoDownload();
+  doggoDownload(generatorURL);
   tweet();
 }, 1 * 60 * 1000);
 
 //Doin a download
-function doggoDownload(){
-  request(generatorURL, function(error, response, body) {
+function doggoDownload(url){
+  request(url, function(error, response, body) {
     if(!error && response.statusCode == 200) {
       var doggo = JSON.parse(body)["message"];
       console.log(doggo);
