@@ -23,7 +23,7 @@ var generatorURL = pickBreed();
 setInterval(function(){
   doggoDownload();
   tweet();
-}, 1 * 60 * 1000);
+}, 30 * 60 * 1000);
 
 //Doin a download
 function doggoDownload(){
@@ -56,7 +56,7 @@ function tweet() {
         var params = { status: '', media_ids: [mediaIdStr] }
 
         Twitter.post('statuses/update', params, function (err, data, response) {
-          console.log(data)
+          console.log("Posted status.")
         })
       }
     })
