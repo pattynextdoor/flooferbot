@@ -22,7 +22,7 @@ setInterval(function() {
   var generatorURL = pickBreed();
   doggoDownload(generatorURL);
   tweet();
-}, 1 * 60 * 1000);
+}, 30 * 60 * 1000);
 
 //Doin a download
 function doggoDownload(url){
