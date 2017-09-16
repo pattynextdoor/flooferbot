@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git://github.com/ptumb001/flooferbot.git"
   }
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.18.1",
     "download-file": "^0.1.5",
