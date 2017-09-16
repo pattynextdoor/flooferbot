@@ -32,7 +32,7 @@ module.exports = {
   access_token_secret: ''
 }
 ```
-You can do this by obtaining an API key from Twitter. Create a Twitter account for your bot, then go to [apps.twitter.com](http://apps.twitter.com) and create a new app. You'll be able to find all the values in the application settings.
+You can find these values by obtaining an API key from Twitter. Create a Twitter account for your bot, then go to [apps.twitter.com](http://apps.twitter.com) and create a new app. You'll be able to find all the values in the application settings.
 
 Once you've written your changes to `config.js`, you can run the bot in the terminal with Node.js.
 
