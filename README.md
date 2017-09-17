@@ -6,7 +6,7 @@
 
 ![alt text](https://pbs.twimg.com/profile_images/908801602584113152/qxMmL9mr_400x400.jpg "lil Steele")
 
-An automated Twitter client that tweets floof pictures every 30 minutes. Visit him over [here](https://twitter.com/flooferbot) . He's a good boy. Hosted on [Heroku](https://heroku.com/).
+An automated Twitter client that tweets floof pictures every 30 minutes. Visit him over [here](https://twitter.com/flooferbot). He's a good boy. Hosted on [Heroku](https://heroku.com/).
 
 ## Built With
 
